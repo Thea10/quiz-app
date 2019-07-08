@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>-- Play!</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+      <div id="game" class="justify-center flex-column">
+          <div id="header">
+              <p class="title">Score</p>
+              <h2 id="score">0</h2>
+          </div>
+          <h2 id="question">Question</h2>
+          <div class="options">
+              <p class="option-id">A</p>
+              <p class="option" data-position = "A">Option 1</p>
+          </div>
+           <div class="options">
+              <p class="option-id">B</p>
+              <p class="option" data-position = "B">Option 2</p>
+          </div>
+           <div class="options">
+              <p class="option-id">C</p>
+              <p class="option" data-position = "C">Option 3</p>
+          </div>
+           <div class="options">
+              <p class="option-id">D</p>
+              <p class="option" data-position = "D">Option 4</p>
+          </div>
+          
+      </div> 
+      <div class="modal" id="modal">
+            <div class="content">
+                <p> Total Score<span id="display">0</span> </p>
+                <div class="input" id="input">
+                    <form>
+                        <input type="text" id="myname" name="myname" placeholder="Name" class="myname">
+                        <button type="submit" id="save" class="frmbtn" onclick="saveScore(event)" disabled>Save</button>
+                    </form>
+                 </div> 
+                 
+                <div class="other-actions">
+                    <a href="main.html" class="btn">Play again?</a>
+                    <a href="index.html" class="btn">Home page?</a>
+                    <a href="highscores.html" class="btn">Scores</a>    
+                </div> 
+            </div>
+      </div>
+  </div>   
+  <script src="js/action.js"></script>
+
+  <script src="js/save.js"></script>
+
+</body>
+</html>
