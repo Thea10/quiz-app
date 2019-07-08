@@ -1,0 +1,65 @@
+[
+    {
+        "question": "What is JS?",
+        "optionA": "A script",
+        "optionB": "a programming language",
+        "optionC": "coffee",
+        "optionD": "food",
+        "answer": "B"
+    },
+
+    {
+        "question": "Full meaning of DOM",
+        "optionA": "Document Object Model",
+        "optionB": "Director Of Management",
+        "optionC": "Direct Object Management",
+        "optionD": "Document Oriented Model",
+        "answer": "A"
+    },
+
+    {
+        "question": "What does document.getElementById do?",
+        "optionA": "Gets all html elements",
+        "optionB": "starts the web app",
+        "optionC": "ends the web app",
+        "optionD": "gets the element with the specified id",
+        "answer": "D"
+    },
+    
+    {
+        "question": "Full meaning of CSS",
+        "optionA": "Correct Style Sheets",
+        "optionB": "Cursive Style Sheets",
+        "optionC": "Cascading Style sheets",
+        "optionD": "Code Sheet Styles",
+        "answer": "C"
+    },
+    
+    {
+        "question": "Prevents a form from submitting until an action has been taken",
+        "optionA": "e.preventSubmit();",
+        "optionB": "e.preventDefault();",
+        "optionC": "e.preventForm()",
+        "optionD": "e.preventAction()",
+        "answer": "B"
+    },
+
+    {
+        "question": "Stores a value into local storage",
+        "optionA": "localStorage.setValue();",
+        "optionB": "localStorage.save();",
+        "optionC": "localStorage.setItem()",
+        "optionD": "localStorage.storeValue()",
+        "answer": "C"
+    },
+
+     {
+        "question": "Converts a json string into an object",
+        "optionA": "JSON.parse();",
+        "optionB": "JSON.convert();",
+        "optionC": "JSON.object()",
+        "optionD": "JSON.stringify()",
+        "answer": "A"
+    }
+
+]
