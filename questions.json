@@ -60,6 +60,34 @@
         "optionC": "JSON.object()",
         "optionD": "JSON.stringify()",
         "answer": "A"
+    },
+
+     {
+        "question": "tag is an extension to HTML that can enclose any number of JavaScript statements.",
+        "optionA": "SCRIPT",
+        "optionB": " BODY",
+        "optionC": " HEAD",
+        "optionD": "TITLE",
+        "answer": "A"
+    },
+
+     {
+        "question": " What is the correct JavaScript syntax to write Hello World?",
+        "optionA": "System.out.println('Hello World');",
+        "optionB": " println('Hello World');",
+        "optionC": " document.write('Hello World');",
+        "optionD": "response.write('Hello World')",
+        "answer": "C"
+    },
+
+     {
+        "question": "The _______ method of an Array object adds and/or removes elements from an array.",
+        "optionA": "Reverse",
+        "optionB": "Shift",
+        "optionC": " Splice",
+        "optionD": "Slice",
+        "answer": "C"
     }
+
 
 ]
